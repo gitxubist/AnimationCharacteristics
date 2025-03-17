@@ -14,6 +14,7 @@ class SpringAnimationsViewController: UIViewController {
     @IBOutlet private weak var animatedView: SpringView!
     @IBOutlet private weak var presetLabel: UILabel!
     
+//    AnimationPreset.AllCases
     private let animations = [
         "pop",
         "shake",
